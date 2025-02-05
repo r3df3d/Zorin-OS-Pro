@@ -18,6 +18,9 @@ To run this script, you need Python version 3.x.
 
 ### For GUI Version
 ```bash
+git clone https://github.com/r3df3d/Zorin-OS-Pro
+```
+```bash
 sudo apt update
 ```
 ```bash
