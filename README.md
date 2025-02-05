@@ -14,12 +14,12 @@ You will have access to all Zorin OS Pro features
 # Installation:
 Open your terminal and run sudo su command , then put your password, then follow the step by step process...
 
-### For GUI 
+### For GUI Version
 ```bash
-sudo apt update
+ apt get update
 ```
 ```bash
-sudo apt install python3-pip or sudo apt install python-pip
+ apt install python3-pip or sudo apt install python-pip
 
 ```
 ```bash
@@ -28,6 +28,7 @@ pip install pyqt5
 ```bash
 python3 gui.py
 ```
+# If GUI version not work then use given command [copy&paste]
 ### For Zorin 16
 ```bash
 git clone https://github.com/NanashiTheNameless/Zorin-OS-Pro.git && ./Zorin-OS-Pro/zorin.sh -6
@@ -56,7 +57,7 @@ sudo apt install ./zorin-os-premium-keyring_1.0_all.deb
 It should be okay to ignore further errors
 
 # Credits
+-r3df3d for optimized and implement GUI version..
 - NamelessNanashi/NanashiTheNameless For Overhauling And Adding Zorin OS 17 Support
-- AdityaGarg8 For Adding The -U Functionality And Helping Me Notice And Fix A Few Oversights
 - PEAKYCOMMAND For The Original Code And The Idea (please note, this dev should not be fully trusted)
 - [All Other Github Contributors For Their Appropreate Addidions/Commits](https://github.com/NanashiTheNameless/Zorin-OS-Pro/graphs/contributors)
