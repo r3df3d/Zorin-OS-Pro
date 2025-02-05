@@ -16,11 +16,10 @@ Open your terminal and run sudo su command , then put your password, then follow
 
 ### For GUI Version
 ```bash
- apt get update
+apt update
 ```
 ```bash
- apt install python3-pip or sudo apt install python-pip
-
+sudo apt install python-pip
 ```
 ```bash
 pip install pyqt5
