@@ -1,7 +1,4 @@
 # Zorin-OS-Pro
-# Please do not use the original authors code, they have not adequately documented the functionality of the script nor the changes to notation made by my overhaul!
-This script turns your Zorin OS CORE instance into a Zorin OS PRO instance
-## More info can be seen here: https://github.com/PEAKYCOMMAND/Zorin-OS-Pro/commit/456414cea17f27051c4ef17ac16901b0d980c666
 
 You will have access to all Zorin OS Pro features
 
@@ -15,14 +12,21 @@ You will have access to all Zorin OS Pro features
 </p>
 
 # Installation:
-copy the command below, paste in your terminal, then put your password, then restart your computer when it completes and you now be running the pro version Zorin OS
+Open your terminal and run sudo su command , then put your password, then follow the step by step process...
 
 ### For GUI 
+```bash
+sudo apt update
+```
+```bash
+sudo apt install python3-pip or sudo apt install python-pip
+
+```
 ```bash
 pip install pyqt5
 ```
 ```bash
-pip install pyqt5
+python3 gui.py
 ```
 ### For Zorin 16
 ```bash
