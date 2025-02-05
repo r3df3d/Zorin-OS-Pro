@@ -17,8 +17,13 @@ You will have access to all Zorin OS Pro features
 # Installation:
 copy the command below, paste in your terminal, then put your password, then restart your computer when it completes and you now be running the pro version Zorin OS
 
-### You can use `-U` to make it work on headless machnes or unattended
-
+### For GUI 
+```bash
+pip install pyqt5
+```
+```bash
+pip install pyqt5
+```
 ### For Zorin 16
 ```bash
 git clone https://github.com/NanashiTheNameless/Zorin-OS-Pro.git && ./Zorin-OS-Pro/zorin.sh -6
