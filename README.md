@@ -1,4 +1,4 @@
-# Zorin-OS-Pro
+# Zorin-OS-Pro Activator
 
 You will have access to all Zorin OS Pro features
 
@@ -13,10 +13,12 @@ You will have access to all Zorin OS Pro features
 
 # Installation:
 Open your terminal and run sudo su command , then put your password, then follow the step by step process...
+###
+To run this script, you need Python version 3.x.
 
 ### For GUI Version
 ```bash
-apt update
+sudo apt update
 ```
 ```bash
 sudo apt install python-pip
@@ -27,26 +29,6 @@ pip install pyqt5
 ```bash
 python3 gui.py
 ```
-# If GUI version not work then use given command [copy&paste]
-### For Zorin 16
-```bash
-git clone https://github.com/NanashiTheNameless/Zorin-OS-Pro.git && ./Zorin-OS-Pro/zorin.sh -6
-```
-
-### For Zorin 17
-```bash
-git clone https://github.com/NanashiTheNameless/Zorin-OS-Pro.git && ./Zorin-OS-Pro/zorin.sh -7
-```
-
-## For More Content
-##### Zorin 16
-```bash
-git clone https://github.com/NanashiTheNameless/Zorin-OS-Pro.git && ./Zorin-OS-Pro/zorin.sh -6 -M
-```
-##### Zorin 17
-```bash
-git clone https://github.com/NanashiTheNameless/Zorin-OS-Pro.git && ./Zorin-OS-Pro/zorin.sh -7 -M
-```
 
 ## If you face issues with "zorin-os-premium-keyring" install the deb manually using this command
 ```bash
@@ -56,7 +38,6 @@ sudo apt install ./zorin-os-premium-keyring_1.0_all.deb
 It should be okay to ignore further errors
 
 # Credits
--r3df3d for optimized and implement GUI version..
+-optimized and implement GUI version by r3df3d..
 - NamelessNanashi/NanashiTheNameless For Overhauling And Adding Zorin OS 17 Support
 - PEAKYCOMMAND For The Original Code And The Idea (please note, this dev should not be fully trusted)
-- [All Other Github Contributors For Their Appropreate Addidions/Commits](https://github.com/NanashiTheNameless/Zorin-OS-Pro/graphs/contributors)
